@@ -14,7 +14,7 @@
 
         <% if form.object.errors.any? %>
           <div class="alert alert-danger">
-            <strong>The following errors prevented saving:</strong>
+            <strong>Error:</strong>
             <ul>
               <% form.object.errors.full_messages.each do |error| %>
                 <li><%= error %></li>
